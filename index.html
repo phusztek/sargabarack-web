@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rendelő Weboldal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Rendelés</h1>
+  <form id="orderForm">
+    <label for="product">Termék:</label>
+    <select id="product" name="product">
+      <option value="sargabarack">Sárgabarack</option>
+      <option value="cefre">Cefre</option>
+    </select>
+    <label for="quantity">Mennyiség:</label>
+    <input type="number" id="quantity" name="quantity" min="1" value="1">
+    <button type="submit">Rendelés küldése</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
